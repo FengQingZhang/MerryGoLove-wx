@@ -1,0 +1,129 @@
+	.main {
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(90deg, RGB(122, 120, 255), RGB(103, 220, 225));
+		z-index: -1;
+		display: flex;
+		flex-direction: column;
+	}
+	.main-no-color{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	/*头部样式*/
+	.header {
+		position: relative;
+		width: 100%;
+		height: 10%;
+		text-align: center;
+	}
+	.header p {
+		position: absolute;
+		bottom: 0px;
+		padding: 0px;
+		margin-left: 30rpx;
+		color: #FFFFFF;
+		font-size: 35rpx;
+	}
+
+	.div-row {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.div-column {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.head-img {
+		width: 20%;
+		height: 100%;
+	}
+	
+	
+	.btn {
+	  background: #eb94d0;
+	  /* 创建渐变 */
+	  background-image: -webkit-linear-gradient(top, RGB(122, 120, 255), RGB(103, 220, 225));
+	  background-image: -moz-linear-gradient(top,RGB(122, 120, 255), RGB(103, 220, 225));
+	  background-image: -ms-linear-gradient(top, RGB(122, 120, 255), RGB(103, 220, 225));
+	  background-image: -o-linear-gradient(top,RGB(122, 120, 255), RGB(103, 220, 225));
+	  background-image: linear-gradient(to bottom, RGB(122, 120, 255), RGB(103, 220, 225));
+	  /* 给按钮添加圆角 */
+	  -webkit-border-radius: 28;
+	  -moz-border-radius: 28;
+	  border-radius: 13px;
+	  text-shadow: 3px 2px 1px #9daef5;
+	  -webkit-box-shadow: 6px 5px 24px #666666;
+	  -moz-box-shadow: 6px 5px 24px #666666;
+	  box-shadow: 6px 5px 24px #666666;
+	  font-family: Arial;
+	  color: #fafafa;
+	  text-decoration: none;
+	}
+	
+	.ml-grid{
+		color: #FFFFFF;
+		background-image: linear-gradient(90deg, RGB(122, 120, 255), RGB(103, 220, 225));
+		border-radius: 10rpx;
+	}
+	
+	/*水平垂直居中*/
+	.h-v-center{
+		display: flex;
+		/* text-align: center; */
+		align-items: center;
+		justify-content: center;
+	}
+	
+	/* 瀑布布局 */
+	.content{
+	  display: flex;
+	  flex-direction: row;
+	  margin: 20rpx;
+	  overflow: hidden;
+	}
+	
+	.left{
+	  width: 345rpx;
+	}
+	
+	.right{
+	  width: 345rpx;
+	  margin-left: 20rpx;
+	}
+	
+	.pic{
+	  border-radius: 10rpx 10rpx 0 0;
+	  width: 345rpx;
+	  filter: blur(10rpx);
+	}
+	.image-container{
+		position: relative;
+		padding: 0;
+		width: 345rpx;
+		height: 223px;
+	}
+	/*图片遮罩*/
+	.image-mask {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 345rpx;
+		height: 223px;
+		line-height: 223px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.image-font{
+		position: absolute;
+		left: 1;
+		bottom: 0;
+		color: #FFFFFF;
+	}
+	.font-yahei{
+		font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu
+	}

@@ -1,0 +1,79 @@
+{
+    "id": "pyh-nv",
+    "name": "pyh-nv 全自定义、全兼容、全功能、多类型、可渐变导航栏",
+    "version": "1.2.8",
+    "description": "所有属性都可自定义，兼容各端包括nvue，所有类型导航栏都可渐变，还可设置状态栏字体色；1.1.6版本后续非uni_modules版本不再更新",
+    "keywords": [
+        "导航栏",
+        "自定义",
+        "渐变",
+        "状态栏",
+        "多端兼容"
+    ],
+    "displayName": "pyh-nv 全自定义、全兼容、全功能、多类型、可渐变导航栏",
+    "repository": "https://github.com/Ulovely/pyh-nv",
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ],
+        "sale": {
+            "regular": {
+                "price": "0.00"
+            },
+            "sourcecode": {
+                "price": "0.00"
+            }
+        },
+        "contact": {
+            "qq": ""
+        },
+        "declaration": {
+            "ads": "无",
+            "data": "无",
+            "permissions": "无"
+        },
+        "npmurl": ""
+    },
+    "uni_modules": {
+        "platforms": {
+            "cloud": {
+                "tcb": "y",
+                "aliyun": "y"
+            },
+            "client": {
+                "App": {
+                    "app-vue": "y",
+                    "app-nvue": "y"
+                },
+                "H5-mobile": {
+                    "Safari": "y",
+                    "Android Browser": "y",
+                    "微信浏览器(Android)": "y",
+                    "QQ浏览器(Android)": "y"
+                },
+                "H5-pc": {
+                    "Chrome": "u",
+                    "IE": "u",
+                    "Edge": "u",
+                    "Firefox": "u",
+                    "Safari": "u"
+                },
+                "小程序": {
+                    "微信": "y",
+                    "阿里": "u",
+                    "百度": "u",
+                    "字节跳动": "u",
+                    "QQ": "u"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                }
+            }
+        }
+    },
+    "engines": {
+        "HBuilderX": "^3.1.0"
+    }
+}

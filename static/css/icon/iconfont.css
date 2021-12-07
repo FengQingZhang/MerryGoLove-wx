@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "my-icon"; /* Project id 2856413 */
+  src: url('https://at.alicdn.com/t/font_2856413_0lk5q6auhm7p.ttf?t=1637806073324') format('truetype');
+}
+
+.my-icon {
+  font-family: "my-icon";
+}
+
+.my-icon-shilian::before {
+  content: "\e6ca";
+}
+
+.my-icon-gerenxinxi1:before {
+  content: "\e605";
+}
+
+.my-icon-shangchuantupian:before {
+  content: "\e644";
+}
+
+.my-icon-icon-test:before {
+  content: "\e64a";
+}
+
+.my-icon-icon-test1:before {
+  content: "\e64d";
+}
+
+.my-icon-gerenxinxi:before {
+  content: "\e641";
+}
+
+.my-icon-gerenziliao:before {
+  content: "\e611";
+}
+
+.my-icon-zhaopian:before {
+  content: "\e643";
+}

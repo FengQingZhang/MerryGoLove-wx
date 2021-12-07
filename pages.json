@@ -1,0 +1,164 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/chat",
+			"style": {
+				"navigationBarTitleText": "聊天界面",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/user_info",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/mine/headerPortrait",
+			"style":{
+				"navigationBarTitleText": "头像",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/mine/album",
+			"style":{
+				"navigationBarTitleText":"我的相册",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/mine/collaboration",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/mine/clause",
+			"style": {
+				"navigationBarTitleText": "服务条款",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path":"pages/register/country_chose",
+			"style":{
+				"navigationBarTitleText": "国家选择",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			//vant 引用
+			"van-dialog": "wxcomponents/vant/dist/dialog/index",
+			"van-image": "wxcomponents/vant/dist/image/index",
+			"van-tag": "wxcomponents/vant/dist/tag/index",
+			"van-tab": "wxcomponents/vant/dist/tab/index",
+			"van-tabs": "wxcomponents/vant/dist/tabs/index",
+			"van-row": "wxcomponents/vant/dist/row/index",
+			"van-col": "wxcomponents/vant/dist/col/index",
+			"van-icon": "wxcomponents/vant/dist/icon/index",
+			"van-grid": "wxcomponents/vant/dist/grid/index",
+			"van-grid-item": "wxcomponents/vant/dist/grid-item/index",
+			"van-divider": "wxcomponents/vant/dist/divider/index",
+			"van-skeleton": "wxcomponents/vant/dist/skeleton/index",
+			"van-loading": "wxcomponents/vant/dist/loading/index",
+			"van-notify": "wxcomponents/vant/dist/notify/index",
+			"van-button": "wxcomponents/vant/dist/button/index",
+			"van-checkbox": "wxcomponents/vant/dist/checkbox/index",
+			"van-checkbox-group": "wxcomponents/vant/dist/checkbox-group/index",
+			"van-popup": "wxcomponents/vant/dist/popup/index",
+			"van-nav-bar": "wxcomponents/vant/dist/nav-bar/index",
+			"van-cell": "wxcomponents/vant/dist/cell/index",
+			"van-cell-group": "wxcomponents/vant/dist/cell-group/index",
+			"van-radio": "wxcomponents/vant/dist/radio/index",
+			"van-radio-group": "wxcomponents/vant/dist/radio-group/index",
+			"van-action-sheet": "wxcomponents/vant/dist/action-sheet/index",
+			"van-field": "wxcomponents/vant/dist/field/index",
+			"van-swipe-cell": "wxcomponents/vant/dist/swipe-cell/index",
+			"van-toast":"wxcomponents/vant/dist/toast/index",
+			"van-datetime-picker":"wxcomponents/vant/dist/datetime-picker/index",
+			"van-picker":"wxcomponents/vant/dist/picker/index",
+			"van-area": "wxcomponents/vant/dist/area/index",
+			"van-uploader":"wxcomponents/vant/dist/uploader/index",
+			"image-cropper":"wxcomponents/image-cropper/image-cropper",
+			"van-empty": "wxcomponents/vant/dist/empty/index"
+		}
+	},
+	"easycom": {
+		"nv": "@/uni_modules/pyh-nv/components/pyh-nv/pyh-nv.vue"
+	},
+	"tabBar": {
+		"borderStyle": "black", //边框颜色
+		"backgroundColor": "#F7F7F7", //背景颜色
+		"color": "#000000", //默认颜色
+		"selectedColor": "#07C160", //选中颜色
+		"list": [{
+				"iconPath": "static/img/tabBar/home.png",
+				"selectedIconPath": "static/img/tabBar/home1.png",
+				"pagePath": "pages/home/home"
+			},
+			{
+				"iconPath": "static/img/tabBar/search.png",
+				"selectedIconPath": "static/img/tabBar/search1.png",
+				"pagePath": "pages/search/search"
+			},
+			{
+				"iconPath": "static/img/tabBar/comment.png",
+				"selectedIconPath": "static/img/tabBar/comment1.png",
+				"pagePath": "pages/message/message"
+			},
+			{
+				"iconPath": "static/img/tabBar/user.png",
+				"selectedIconPath": "static/img/tabBar/user1.png",
+				"pagePath": "pages/mine/mine"
+			}
+		]
+	}
+}
